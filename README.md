@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://claude1018.github.io/interior-consultant/">
       Demo
     </a>
     <span> | </span>
@@ -55,7 +55,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - The user can see the page as close as the design provided by devchallenges.io
 - The user can see the navigation/hamburger on smaller devices
-- Added some animation
+- The use can see some animation/interactivity
 
 
 ## Contact
