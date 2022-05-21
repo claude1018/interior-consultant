@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/png" href="./images/devchallenges.png" />
+    <title>Interior Consultant Challenge</title>
+  </head>
+  <body>
+    <header>
+      <div class="container nav row mobile-flex-row">
+        <a class="nav__brand" href="#">This Interior</a>
+        <div id="toggle-menu" class="nav__menu">
+          <span class="hamburger"></span>
+        </div>
+        <nav class="nav__wrapper mobile-flex-col">
+          <ul class="nav__list row">
+            <li class="nav__list--item">
+              <a class="nav__list--item__link active" href="#">home</a>
+            </li>
+            <li class="nav__list--item">
+              <a class="nav__list--item__link" href="#collection">collection</a>
+            </li>
+            <li class="nav__list--item">
+              <a class="nav__list--item__link" href="#about">about</a>
+            </li>
+            <li class="nav__list--item">
+              <a class="nav__list--item__link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container relative hero__wrapper">
+        <div class="hero row">
+          <div class="col hero__left">
+            <div class="hero__left--wrapper">
+              <h1 class="hero__left--title">Modern interior</h1>
+              <div class="hero__left--details">
+                <p>
+                  A full-Service residential & commercial interior design and
+                  staging company offering professional organizing &
+                  eco-services.
+                </p>
+              </div>
+              <a class="hero__left--readmore w-arrow" href="#read-more"
+                >read more</a
+              >
+            </div>
+          </div>
+          <div class="col hero__right">
+            <figure class="hero__right--wrapper">
+              <img
+                class="hero__right--wrapper__image"
+                src="./images/photo1.png"
+                alt="A beautiful living room with sofa"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="designer">
+          <div class="designer__profile">
+            <img
+              class="designer__profile--avatar"
+              src="./images/photo2.png"
+              alt="Aliza Webber profile"
+            />
+            <div class="designer__profile--details">
+              <p class="designer__profile--details__name">Aliza Webber</p>
+              <p class="designer__profile--details__title">Interior designer</p>
+            </div>
+          </div>
+          <div class="designer__details">
+            <h2 class="designer__details--heading">
+              Designed in 2020 by Aliza Webber
+            </h2>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        created by
+        <a href="https://github.com/claude1018" target="_blank">claude1018</a> -
+        devChallenges.io
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
